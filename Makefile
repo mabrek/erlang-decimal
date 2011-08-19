@@ -1,4 +1,6 @@
-all:
+all: compile
+
+compile:
 	@erl -make
 
 clean:
